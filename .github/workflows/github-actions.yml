@@ -148,7 +148,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/nombre-proyecto/browser
+          publish_dir: ./dist/practica4/browser
           cname: false
 
       - name: Notificar éxito del deploy
