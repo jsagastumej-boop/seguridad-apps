@@ -211,6 +211,3 @@ jobs:
             Resultado: ${{ job.status }}
             Rama: ${{ github.ref }}
             Commit: ${{ github.sha }}
-          webhook_url: ${{ secrets.SLACK_WEBHOOK }}
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
